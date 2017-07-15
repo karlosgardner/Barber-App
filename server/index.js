@@ -6,8 +6,8 @@ var bodyParser = require('body-parser');
 
 // MongoDB
 
-//mongoose.connect('mongodb://localhost/appointment');
-mongoose.connect('mongodb://heroku_fhps71sf:u47v4cn9e60nbtem6g9qm0q6go@ds159662.mlab.com:59662/heroku_fhps71sf');
+mongoose.connect('mongodb://localhost/appointment');
+//mongoose.connect('mongodb://heroku_fhps71sf:u47v4cn9e60nbtem6g9qm0q6go@ds159662.mlab.com:59662/heroku_fhps71sf');
 
 // mongoose.connection.on('error', function(){});
 
